@@ -1,0 +1,21 @@
+- Frontend:
+	- Instalar node.js
+	- npm install –g @angular/cli
+	- ng new <nome da aplicação>
+	- ng generate service api (Criando o arquivo para conversar com a API django)	
+	- ng generate component <componente>, (Criando novo componente)
+	- cd .\src\app\<componente>\
+	- ng generate service api
+- backend:
+	- instalar python3
+	- python -m venv <nome da virtualenv>
+	- entrar na venv
+	- pip install django
+	- pip install djangorestframework
+	- django-admin startproject <projeto>
+	- python manage.py migrate
+	- python manage.py createsuperuser <usuario>
+	- python .\manage.py startapp <app>
+	- pip install Pillow
+	- https://github.com/adamchainz/django-cors-headers
+	
